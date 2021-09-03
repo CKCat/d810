@@ -54,7 +54,7 @@ This technique is often applied multiple times to the original code to increase 
 
 Three passes are kind of ok, but when using 4 passes it starts to become ridiculous:
 
- <video src="videos/ollvm_sub4.mp4" control></video>
+[ollvm_sub4.mp4](videos/ollvm_sub4.mp4)
 
  
 
@@ -308,8 +308,7 @@ With D-810 activated, the code is simplified as expected:
 
 We decided to add another layer of obfuscation using OLLVM instruction substitution, which adds a bit of complexity:
 
- <video src="videos/qsynth_obfuscated_ollvm.mp4" control></video>
-
+(qsynth_obfuscated_ollvm.mp4)[videos/qsynth_obfuscated_ollvm.mp4]
  
 
 D-810 managed to terminate several obfuscation layers but the result was not as good as expected:
