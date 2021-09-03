@@ -23,7 +23,7 @@ Today, we’re thrilled to release `Deobfuscator-810` (`D-810`). As other deobfu
 
 For instance, we start with something like that:
 
- <video src="videos/anel_obfuscated.mp4" control></video>
+[anel_obfuscated.mp4](videos/anel_obfuscated.mp4)
 
  
 
