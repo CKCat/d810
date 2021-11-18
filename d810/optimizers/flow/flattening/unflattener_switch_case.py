@@ -30,6 +30,8 @@ class TigressSwitchDispatcherInfo(GenericDispatcherInfo):
                 continue
             exit_block = TigressSwitchDispatcherBlockInfo(blk.mba.get_mblock(target_block_serial), self.entry_block)
             self.dispatcher_exit_blocks.append(exit_block)
+            if len(possible_values) == 0:
+                continue
             self.comparison_values.append(possible_values[0])
         return True
 
